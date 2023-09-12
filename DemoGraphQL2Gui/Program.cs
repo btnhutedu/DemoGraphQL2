@@ -1,27 +1,34 @@
-var builder = WebApplication.CreateBuilder(args);
+using DemoGraphQL2Gui;
+using Serilog;
 
-// Add services to the container.
-builder.Services.AddHttpClient();
-builder.Services.AddControllersWithViews();
-builder.Services.AddMvcCore();
-builder.Services.AddTransient<IHttpContextAccessor, HttpContextAccessor>();
-
-var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
+public class Program
 {
-    app.UseHsts();
+    public static void Main(string[] args)
+    {
+        Log.Logger = new LoggerConfiguration()
+            .MinimumLevel.Information()
+            .WriteTo.Console()
+            .WriteTo.File("logFE.txt", rollingInterval: RollingInterval.Day)
+            .CreateLogger();
+
+        try
+        {
+            CreateHostBuilder(args).Build().Run();
+        }
+        catch (Exception ex)
+        {
+            Log.Fatal(ex, "Application terminated unexpectedly.");
+        }
+        finally
+        {
+            Log.CloseAndFlush();
+        }
+    }
+
+    public static IHostBuilder CreateHostBuilder(string[] args) =>
+        Host.CreateDefaultBuilder(args)
+            .ConfigureWebHostDefaults(webBuilder =>
+            {
+                webBuilder.UseStartup<Startup>();
+            }).UseSerilog();
 }
-
-app.UseStaticFiles();
-
-app.UseRouting();
-
-app.UseAuthorization();
-
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Employee}/{action=Index}");
-
-app.Run();
