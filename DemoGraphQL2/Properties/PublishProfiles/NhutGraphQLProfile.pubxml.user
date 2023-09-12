@@ -4,8 +4,8 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 -->
 <Project>
   <PropertyGroup>
-    <_PublishTargetUrl>D:\repo\DemoGraphQL2\DemoGraphQL2Gui\bin\Release\net6.0\publish\</_PublishTargetUrl>
-    <History>True|2023-09-12T16:07:04.1000202Z;</History>
+    <_PublishTargetUrl>D:\repo\DemoGraphQL2\DemoGraphQL2\bin\Release\net6.0\publish\</_PublishTargetUrl>
+    <History>True|2023-09-12T16:09:24.5353712Z;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>
