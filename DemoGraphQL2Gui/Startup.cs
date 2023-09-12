@@ -2,7 +2,7 @@
 {
     public class Startup
     {
-        private readonly string AllowedOrigin = "allowedOrigin";
+        private readonly string AllowedOrigin = "allowedOrigin2";
 
         public Startup(IConfiguration configuration)
         {
@@ -21,7 +21,7 @@
 
             services.AddCors(option =>
             {
-                option.AddPolicy("allowedOrigin", builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+                option.AddPolicy("allowedOrigin2", builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
             });
         }
 
