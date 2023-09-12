@@ -32,8 +32,8 @@
             {
                 app.UseDeveloperExceptionPage();
             }
+            app.UseHttpsRedirection();
             app.UseCors(AllowedOrigin);
-            app.UseWebSockets();
             app.UseStaticFiles();
             app.UseRouting();
             app.UseAuthorization();
