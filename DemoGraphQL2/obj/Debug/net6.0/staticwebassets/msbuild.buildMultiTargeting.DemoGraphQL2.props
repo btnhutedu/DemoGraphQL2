@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\DemoGraphQL2.props" />
+</Project>
