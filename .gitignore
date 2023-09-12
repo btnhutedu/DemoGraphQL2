@@ -1046,3 +1046,17 @@ DemoGraphQL2/bin/Release/net6.0/Serilog.Extensions.Hosting.dll
 DemoGraphQL2/bin/Release/net6.0/Serilog.Extensions.Logging.dll
 DemoGraphQL2/bin/Release/net6.0/Serilog.Sinks.Console.dll
 DemoGraphQL2/bin/Release/net6.0/Serilog.Sinks.File.dll
+log20230912.txt
+DemoGraphQL2/obj/Debug/net6.0/PubTmp/Out/Microsoft.Extensions.Configuration.Abstractions.dll
+DemoGraphQL2/obj/Debug/net6.0/PubTmp/Out/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+DemoGraphQL2/obj/Debug/net6.0/PubTmp/Out/Microsoft.Extensions.FileProviders.Abstractions.dll
+DemoGraphQL2/obj/Debug/net6.0/PubTmp/Out/Microsoft.Extensions.Hosting.Abstractions.dll
+DemoGraphQL2/obj/Debug/net6.0/PubTmp/Out/Microsoft.Extensions.Logging.Abstractions.dll
+DemoGraphQL2/obj/Debug/net6.0/PubTmp/Out/Microsoft.Extensions.Logging.dll
+DemoGraphQL2/obj/Debug/net6.0/PubTmp/Out/Microsoft.Extensions.Options.dll
+DemoGraphQL2/obj/Debug/net6.0/PubTmp/Out/Microsoft.Extensions.Primitives.dll
+DemoGraphQL2/obj/Debug/net6.0/PubTmp/Out/Serilog.dll
+DemoGraphQL2/obj/Debug/net6.0/PubTmp/Out/Serilog.Extensions.Hosting.dll
+DemoGraphQL2/obj/Debug/net6.0/PubTmp/Out/Serilog.Extensions.Logging.dll
+DemoGraphQL2/obj/Debug/net6.0/PubTmp/Out/Serilog.Sinks.Console.dll
+DemoGraphQL2/obj/Debug/net6.0/PubTmp/Out/Serilog.Sinks.File.dll
