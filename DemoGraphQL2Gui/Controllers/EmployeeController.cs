@@ -10,27 +10,32 @@ namespace DemoGraphQL2Gui.Controllers
 {
     public class EmployeeController : Controller
     {
+        private readonly ILogger<EmployeeController> _logger;
         private readonly HttpClient _httpClient;
 
-        public EmployeeController(IHttpClientFactory httpClientFactory)
+        public EmployeeController(IHttpClientFactory httpClientFactory, ILogger<EmployeeController> logger)
         {
             _httpClient = new HttpClient();
+            _logger = logger;
+            _logger.LogInformation("EmployeeController start");
         }
 
         [HttpGet]
         public async Task<IActionResult> Index()
         {
-            // Create a GraphQL client
-            var client = new GraphQLHttpClient(new GraphQLHttpClientOptions
+            try
             {
-                EndPoint = new Uri("https://localhost:7188/graphql/"),
-            },
-            new NewtonsoftJsonSerializer(), _httpClient);
+                // Create a GraphQL client
+                var client = new GraphQLHttpClient(new GraphQLHttpClientOptions
+                {
+                    EndPoint = new Uri("https://localhost:7188/graphql/"),
+                },
+                new NewtonsoftJsonSerializer(), _httpClient);
 
-            // Define the GraphQL query
-            var request = new GraphQLRequest
-            {
-                Query = @"
+                // Define the GraphQL query
+                var request = new GraphQLRequest
+                {
+                    Query = @"
                         query AllEmployeesWithDepartment {
                             allEmployeesWithDepartment {
                                 employeeId
@@ -42,23 +47,29 @@ namespace DemoGraphQL2Gui.Controllers
                                 }
                             }
                         }"
-            };
+                };
 
-            var response = await client.SendQueryAsync<object>(request);
+                var response = await client.SendQueryAsync<object>(request);
 
-            var data = response.Data as JToken;
+                var data = response.Data as JToken;
 
-            if (data != null)
-            {
-                var employeesData = data["allEmployeesWithDepartment"];
-                if (employeesData != null)
+                if (data != null)
                 {
-                    var employeesList = employeesData.ToObject<List<Employee>>();
-                    return View(employeesList);
+                    var employeesData = data["allEmployeesWithDepartment"];
+                    if (employeesData != null)
+                    {
+                        var employeesList = employeesData.ToObject<List<Employee>>();
+                        return View(employeesList);
+                    }
                 }
-            }
 
-            return View(new List<Employee>());
+                return View(new List<Employee>());
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error while employees controller");
+                throw;
+            }
         }
     }
 }
