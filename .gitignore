@@ -1459,3 +1459,355 @@ DemoGraphQL2Gui/bin/Release/net6.0/publish/wwwroot/template/js/topojson.min.js
 DemoGraphQL2Gui/bin/Release/net6.0/publish/wwwroot/template/js/uppy.min.js
 DemoGraphQL2Gui/obj/Release/net6.0/PublishOutputs.b02eec6ac1.txt
 DemoGraphQL2Gui/obj/Release/net6.0/staticwebassets.publish.json
+BananaCakePop.Middleware.dll
+DemoGraphQL2.deps.json
+DemoGraphQL2.dll
+DemoGraphQL2.exe
+DemoGraphQL2.pdb
+DemoGraphQL2.runtimeconfig.json
+DemoGraphQL2Gui.deps.json
+DemoGraphQL2Gui.dll
+DemoGraphQL2Gui.exe
+DemoGraphQL2Gui.pdb
+DemoGraphQL2Gui.runtimeconfig.json
+GraphiQL.dll
+GraphQL.Client.Abstractions.dll
+GraphQL.Client.Abstractions.Websocket.dll
+GraphQL.Client.dll
+GraphQL.Client.Serializer.Newtonsoft.dll
+GraphQL.dll
+GraphQL.Primitives.dll
+GraphQLParser.dll
+GreenDonut.dll
+HotChocolate.Abstractions.dll
+HotChocolate.AspNetCore.dll
+HotChocolate.Authorization.dll
+HotChocolate.Execution.Abstractions.dll
+HotChocolate.Execution.dll
+HotChocolate.Fetching.dll
+HotChocolate.Language.dll
+HotChocolate.Language.SyntaxTree.dll
+HotChocolate.Language.Utf8.dll
+HotChocolate.Language.Visitors.dll
+HotChocolate.Language.Web.dll
+HotChocolate.Subscriptions.dll
+HotChocolate.Subscriptions.InMemory.dll
+HotChocolate.Transport.Sockets.dll
+HotChocolate.Types.CursorPagination.dll
+HotChocolate.Types.dll
+HotChocolate.Types.Mutations.dll
+HotChocolate.Types.OffsetPagination.dll
+HotChocolate.Types.Scalars.Upload.dll
+HotChocolate.Utilities.dll
+HotChocolate.Utilities.Introspection.dll
+HotChocolate.Validation.dll
+logBE20230912.txt
+Microsoft.Bcl.AsyncInterfaces.dll
+Microsoft.Data.SqlClient.dll
+Microsoft.EntityFrameworkCore.Abstractions.dll
+Microsoft.EntityFrameworkCore.dll
+Microsoft.EntityFrameworkCore.Relational.dll
+Microsoft.EntityFrameworkCore.SqlServer.dll
+Microsoft.Extensions.Caching.Memory.dll
+Microsoft.Extensions.Configuration.Abstractions.dll
+Microsoft.Extensions.DependencyInjection.Abstractions.dll
+Microsoft.Extensions.DependencyInjection.dll
+Microsoft.Extensions.DiagnosticAdapter.dll
+Microsoft.Extensions.FileProviders.Abstractions.dll
+Microsoft.Extensions.Hosting.Abstractions.dll
+Microsoft.Extensions.Http.dll
+Microsoft.Extensions.Logging.Abstractions.dll
+Microsoft.Extensions.Logging.dll
+Microsoft.Extensions.Options.dll
+Microsoft.Extensions.Primitives.dll
+Microsoft.Identity.Client.dll
+Microsoft.IdentityModel.JsonWebTokens.dll
+Microsoft.IdentityModel.Logging.dll
+Microsoft.IdentityModel.Protocols.dll
+Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+Microsoft.IdentityModel.Tokens.dll
+Microsoft.Win32.SystemEvents.dll
+Newtonsoft.Json.dll
+Serilog.dll
+Serilog.Extensions.Hosting.dll
+Serilog.Extensions.Logging.dll
+Serilog.Sinks.Console.dll
+Serilog.Sinks.File.dll
+System.Configuration.ConfigurationManager.dll
+System.Diagnostics.DiagnosticSource.dll
+System.Drawing.Common.dll
+System.IdentityModel.Tokens.Jwt.dll
+System.IO.Hashing.dll
+System.Reactive.dll
+System.Runtime.Caching.dll
+System.Security.Cryptography.ProtectedData.dll
+System.Security.Permissions.dll
+System.Text.Json.dll
+System.Windows.Extensions.dll
+web.config
+Yarp.ReverseProxy.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/appsettings.Development.json
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/appsettings.json
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/BananaCakePop.Middleware.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/DemoGraphQL2.deploy.cmd
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/DemoGraphQL2.deploy-readme.txt
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/DemoGraphQL2.deps.json
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/DemoGraphQL2.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/DemoGraphQL2.exe
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/DemoGraphQL2.Parameters.xml
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/DemoGraphQL2.pdb
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/DemoGraphQL2.runtimeconfig.json
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/DemoGraphQL2.SetParameters.xml
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/DemoGraphQL2.SourceManifest.xml
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/DemoGraphQL2.staticwebassets.runtime.json
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/DemoGraphQL2.zip
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/GraphiQL.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/GraphQL.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/GraphQLParser.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/GreenDonut.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/HotChocolate.Abstractions.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/HotChocolate.AspNetCore.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/HotChocolate.Authorization.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/HotChocolate.Execution.Abstractions.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/HotChocolate.Execution.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/HotChocolate.Fetching.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/HotChocolate.Language.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/HotChocolate.Language.SyntaxTree.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/HotChocolate.Language.Utf8.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/HotChocolate.Language.Visitors.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/HotChocolate.Language.Web.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/HotChocolate.Subscriptions.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/HotChocolate.Subscriptions.InMemory.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/HotChocolate.Transport.Sockets.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/HotChocolate.Types.CursorPagination.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/HotChocolate.Types.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/HotChocolate.Types.Mutations.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/HotChocolate.Types.OffsetPagination.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/HotChocolate.Types.Scalars.Upload.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/HotChocolate.Utilities.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/HotChocolate.Utilities.Introspection.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/HotChocolate.Validation.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/Microsoft.Bcl.AsyncInterfaces.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/Microsoft.Data.SqlClient.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/Microsoft.Extensions.DiagnosticAdapter.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/Microsoft.Extensions.FileProviders.Abstractions.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/Microsoft.Extensions.Hosting.Abstractions.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/Microsoft.Extensions.Logging.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/Microsoft.Extensions.Options.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/Microsoft.Extensions.Primitives.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/Microsoft.Identity.Client.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/Serilog.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/Serilog.Extensions.Hosting.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/Serilog.Extensions.Logging.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/Serilog.Sinks.Console.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/Serilog.Sinks.File.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/System.Diagnostics.DiagnosticSource.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/System.Drawing.Common.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/System.IO.Hashing.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/System.Runtime.Caching.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/System.Security.Permissions.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/System.Text.Json.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/System.Windows.Extensions.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/Yarp.ReverseProxy.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+DemoGraphQL2/bin/Any CPU/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+DemoGraphQL2/obj/Any CPU/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+DemoGraphQL2/obj/Any CPU/Debug/net6.0/apphost.exe
+DemoGraphQL2/obj/Any CPU/Debug/net6.0/DemoGraphQL2.AssemblyInfo.cs
+DemoGraphQL2/obj/Any CPU/Debug/net6.0/DemoGraphQL2.AssemblyInfoInputs.cache
+DemoGraphQL2/obj/Any CPU/Debug/net6.0/DemoGraphQL2.assets.cache
+DemoGraphQL2/obj/Any CPU/Debug/net6.0/DemoGraphQL2.csproj.AssemblyReference.cache
+DemoGraphQL2/obj/Any CPU/Debug/net6.0/DemoGraphQL2.csproj.CopyComplete
+DemoGraphQL2/obj/Any CPU/Debug/net6.0/DemoGraphQL2.csproj.CoreCompileInputs.cache
+DemoGraphQL2/obj/Any CPU/Debug/net6.0/DemoGraphQL2.csproj.FileListAbsolute.txt
+DemoGraphQL2/obj/Any CPU/Debug/net6.0/DemoGraphQL2.dll
+DemoGraphQL2/obj/Any CPU/Debug/net6.0/DemoGraphQL2.GeneratedMSBuildEditorConfig.editorconfig
+DemoGraphQL2/obj/Any CPU/Debug/net6.0/DemoGraphQL2.genruntimeconfig.cache
+DemoGraphQL2/obj/Any CPU/Debug/net6.0/DemoGraphQL2.GlobalUsings.g.cs
+DemoGraphQL2/obj/Any CPU/Debug/net6.0/DemoGraphQL2.MvcApplicationPartsAssemblyInfo.cache
+DemoGraphQL2/obj/Any CPU/Debug/net6.0/DemoGraphQL2.pdb
+DemoGraphQL2/obj/Any CPU/Debug/net6.0/PublishOutputs.abc4b90ff4.txt
+DemoGraphQL2/obj/Any CPU/Debug/net6.0/staticwebassets.build.json
+DemoGraphQL2/obj/Any CPU/Debug/net6.0/staticwebassets.development.json
+DemoGraphQL2/obj/Any CPU/Debug/net6.0/staticwebassets.pack.json
+DemoGraphQL2/obj/Any CPU/Debug/net6.0/staticwebassets.publish.json
+DemoGraphQL2/obj/Any CPU/Debug/net6.0/ref/DemoGraphQL2.dll
+DemoGraphQL2/obj/Any CPU/Debug/net6.0/refint/DemoGraphQL2.dll
+DemoGraphQL2/obj/Any CPU/Debug/net6.0/staticwebassets/msbuild.build.DemoGraphQL2.props
+DemoGraphQL2/obj/Any CPU/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.DemoGraphQL2.props
+DemoGraphQL2/obj/Any CPU/Debug/net6.0/staticwebassets/msbuild.buildTransitive.DemoGraphQL2.props
+DemoGraphQL2/obj/Any CPU/Debug/net6.0/staticwebassets/msbuild.DemoGraphQL2.Microsoft.AspNetCore.StaticWebAssets.props
+runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+wwwroot/DemoGraphQL2Gui.styles.css
+wwwroot/favicon.ico
+wwwroot/css/site.css
+wwwroot/js/site.js
+wwwroot/lib/bootstrap/LICENSE
+wwwroot/lib/bootstrap/dist/css/bootstrap.css
+wwwroot/lib/bootstrap/dist/css/bootstrap.css.map
+wwwroot/lib/bootstrap/dist/css/bootstrap.min.css
+wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map
+wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css
+wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map
+wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css
+wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map
+wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css
+wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map
+wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css
+wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map
+wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css
+wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map
+wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css
+wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map
+wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css
+wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map
+wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css
+wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map
+wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css
+wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map
+wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css
+wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map
+wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css
+wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map
+wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css
+wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map
+wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css
+wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map
+wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css
+wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map
+wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js
+wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map
+wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js
+wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map
+wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js
+wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map
+wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js
+wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map
+wwwroot/lib/bootstrap/dist/js/bootstrap.js
+wwwroot/lib/bootstrap/dist/js/bootstrap.js.map
+wwwroot/lib/bootstrap/dist/js/bootstrap.min.js
+wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map
+wwwroot/lib/jquery/LICENSE.txt
+wwwroot/lib/jquery/dist/jquery.js
+wwwroot/lib/jquery/dist/jquery.min.js
+wwwroot/lib/jquery/dist/jquery.min.map
+wwwroot/lib/jquery-validation/LICENSE.md
+wwwroot/lib/jquery-validation/dist/additional-methods.js
+wwwroot/lib/jquery-validation/dist/additional-methods.min.js
+wwwroot/lib/jquery-validation/dist/jquery.validate.js
+wwwroot/lib/jquery-validation/dist/jquery.validate.min.js
+wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js
+wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js
+wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt
+wwwroot/template/assets/avatars/face-1.jpg
+wwwroot/template/assets/avatars/face-2.jpg
+wwwroot/template/assets/avatars/face-3.jpg
+wwwroot/template/assets/avatars/face-4.jpg
+wwwroot/template/assets/avatars/face-5.jpg
+wwwroot/template/assets/avatars/face-6.jpg
+wwwroot/template/assets/avatars/face-7.jpg
+wwwroot/template/assets/avatars/face-8.jpg
+wwwroot/template/assets/images/logo.svg
+wwwroot/template/assets/images/qrcode.svg
+wwwroot/template/assets/products/p1.jpg
+wwwroot/template/assets/products/p2.jpg
+wwwroot/template/assets/products/p3.jpg
+wwwroot/template/assets/products/p4.jpg
+wwwroot/template/css/apexcharts.css
+wwwroot/template/css/app-dark.css
+wwwroot/template/css/app-light.css
+wwwroot/template/css/app-rtl.css
+wwwroot/template/css/bootstrap-datepicker.css
+wwwroot/template/css/dataTables.bootstrap4.css
+wwwroot/template/css/daterangepicker.css
+wwwroot/template/css/dropzone.css
+wwwroot/template/css/dropzone.min.css
+wwwroot/template/css/feather.css
+wwwroot/template/css/fullcalendar.css
+wwwroot/template/css/jquery.steps.css
+wwwroot/template/css/jquery.timepicker.css
+wwwroot/template/css/perfect-scrollbar.css
+wwwroot/template/css/quill.snow.css
+wwwroot/template/css/select2.css
+wwwroot/template/css/select2-bootstrap4.css
+wwwroot/template/css/simplebar.css
+wwwroot/template/css/uppy.min.css
+wwwroot/template/data/contacts.json
+wwwroot/template/data/eu.topo.json
+wwwroot/template/fonts/feather.eot
+wwwroot/template/fonts/feather.svg
+wwwroot/template/fonts/feather.ttf
+wwwroot/template/fonts/feather.woff
+wwwroot/template/js/apexcharts.custom.js
+wwwroot/template/js/apexcharts.min.js
+wwwroot/template/js/apps.js
+wwwroot/template/js/bootstrap.min.js
+wwwroot/template/js/bootstrap-datepicker.min.js
+wwwroot/template/js/Chart.min.js
+wwwroot/template/js/config.js
+wwwroot/template/js/d3.min.js
+wwwroot/template/js/datamaps.all.min.js
+wwwroot/template/js/datamaps.custom.js
+wwwroot/template/js/datamaps-zoomto.js
+wwwroot/template/js/dataTables.bootstrap4.min.js
+wwwroot/template/js/daterangepicker.js
+wwwroot/template/js/dropzone.min.js
+wwwroot/template/js/fullcalendar.custom.js
+wwwroot/template/js/fullcalendar.js
+wwwroot/template/js/gauge.min.js
+wwwroot/template/js/jquery.dataTables.min.js
+wwwroot/template/js/jquery.mask.min.js
+wwwroot/template/js/jquery.min.js
+wwwroot/template/js/jquery.sparkline.min.js
+wwwroot/template/js/jquery.steps.min.js
+wwwroot/template/js/jquery.stickOnScroll.js
+wwwroot/template/js/jquery.timepicker.js
+wwwroot/template/js/jquery.validate.min.js
+wwwroot/template/js/moment.min.js
+wwwroot/template/js/perfect-scrollbar.min.js
+wwwroot/template/js/popper.min.js
+wwwroot/template/js/quill.min.js
+wwwroot/template/js/select2.min.js
+wwwroot/template/js/simplebar.min.js
+wwwroot/template/js/tinycolor-min.js
+wwwroot/template/js/topojson.min.js
+wwwroot/template/js/uppy.min.js
