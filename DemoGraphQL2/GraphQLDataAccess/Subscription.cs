@@ -17,6 +17,12 @@ namespace DemoGraphQL2.GraphQLDataAccess
         {
             return await eventReceiver.SubscribeAsync<Department>("DepartmentUpdated", cancellationToken);
         }
+        
+        [SubscribeAndResolve]
+        public async ValueTask<ISourceStream<Department>> OnDepartmentDelete([Service] ITopicEventReceiver eventReceiver, CancellationToken cancellationToken)
+        {
+            return await eventReceiver.SubscribeAsync<Department>("DepartmentDeleted", cancellationToken);
+        }
 
         [SubscribeAndResolve]
         public async ValueTask<ISourceStream<Employee>> OnEmployeeUpdate([Service] ITopicEventReceiver eventReceiver, CancellationToken cancellationToken)

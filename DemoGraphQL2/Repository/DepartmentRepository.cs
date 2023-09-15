@@ -11,6 +11,13 @@ namespace DemoGraphQL2.Repository
         {
             _appDbContext = sampleAppDbContext;
         }
+
+        public Department GetDetailDepartment(int id)
+        {
+            var department = _appDbContext?.Departments?.Where(x => x.DepartmentId == id).FirstOrDefault();
+            return department;
+        }
+
         public List<Department> GetAllDepartmentOnly()
         {
             var departments = _appDbContext?.Departments?.ToList();
@@ -44,6 +51,25 @@ namespace DemoGraphQL2.Repository
                 var result = _appDbContext.Departments.Update(department);
                 await _appDbContext.SaveChangesAsync();
                 return result.Entity;
+            }
+            catch (Exception)
+            {
+                return new Department();
+            }
+        }
+
+        public async Task<Department> DeleteDepartment(int id)
+        {
+            try
+            {
+                var isExist = _appDbContext.Departments.Find(id);
+                if (isExist != null)
+                {
+                    var result = _appDbContext.Departments.Remove(isExist);
+                    await _appDbContext.SaveChangesAsync();
+                    return result.Entity;
+                }
+                return new Department();
             }
             catch (Exception)
             {

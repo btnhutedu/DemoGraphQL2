@@ -7,10 +7,7 @@ namespace DemoGraphQL2.GraphQLDataAccess
 {
     public class Mutation
     {
-        public async Task<Department> CreateDepartment(
-            [Service] DepartmentRepository departmentRepository,
-            [Service] ITopicEventSender eventSender,
-            DepartmentQueryModel department)
+        public async Task<Department> CreateDepartment([Service] DepartmentRepository departmentRepository, [Service] ITopicEventSender eventSender, DepartmentQueryModel department)
         {
             var createDepartment = new Department
             {
@@ -22,10 +19,7 @@ namespace DemoGraphQL2.GraphQLDataAccess
             return createdDepartment;
         }
 
-        public async Task<Department> UpdateDepartment(
-            [Service] DepartmentRepository departmentRepository,
-            [Service] ITopicEventSender eventSender,
-            DepartmentQueryModel department)
+        public async Task<Department> UpdateDepartment([Service] DepartmentRepository departmentRepository, [Service] ITopicEventSender eventSender, DepartmentQueryModel department)
         {
             var updateDepartment = new Department
             {
@@ -38,10 +32,14 @@ namespace DemoGraphQL2.GraphQLDataAccess
             return updatedDepartment;
         }
 
-        public async Task<Employee> CreateEmploye(
-            [Service] EmployeeRepository employeeRepository,
-            [Service] ITopicEventSender eventSender,
-            EmployeeQueryModel employee)
+        public async Task<Department> DeleteDepartment([Service] DepartmentRepository departmentRepository, [Service] ITopicEventSender eventSender, int id)
+        {
+            var deleteDepartment = await departmentRepository.DeleteDepartment(id);
+            await eventSender.SendAsync("DepartmentDeleted", deleteDepartment);
+            return deleteDepartment;
+        }
+
+        public async Task<Employee> CreateEmploye([Service] EmployeeRepository employeeRepository, [Service] ITopicEventSender eventSender, EmployeeQueryModel employee)
         {
             Employee createEmployee = new Employee
             {
@@ -56,10 +54,7 @@ namespace DemoGraphQL2.GraphQLDataAccess
             return createdEmployee;
         }
 
-        public async Task<Employee> UpdateEmployee(
-            [Service] EmployeeRepository employeeRepository,
-            [Service] ITopicEventSender eventSender,
-            EmployeeQueryModel employee)
+        public async Task<Employee> UpdateEmployee([Service] EmployeeRepository employeeRepository, [Service] ITopicEventSender eventSender, EmployeeQueryModel employee)
         {
             Employee updateEmployeee = new Employee
             {

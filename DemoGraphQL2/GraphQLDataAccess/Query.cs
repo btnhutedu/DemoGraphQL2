@@ -39,6 +39,9 @@ namespace DemoGraphQL2.GraphQLDataAccess
 
         #region Departments
 
+        public Department GetDepartmentById([Service] DepartmentRepository departmentRepository, int id) =>
+            departmentRepository.GetDetailDepartment(id);
+
         public List<Department> GetAllDepartment([Service] DepartmentRepository departmentRepository) =>
             departmentRepository.GetAllDepartmentOnly();
 
